@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    background: #6900b5;
+    color: white;
+}
+
+.texts-grade{
+    
+    color: #6900b5;
+}
+
+
