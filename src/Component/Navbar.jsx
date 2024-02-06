@@ -105,7 +105,7 @@ const Navbar = () => {
               </li>
               <button
                 type="button"
-                className="bg-white block md:hidden texts-grade py-2 rounded-full  text-lg px-4"
+                className="bg-white block md:hidden text-[#32C3AE] py-2 rounded-full  text-lg px-4"
               >
                 Buy Now
               </button>
