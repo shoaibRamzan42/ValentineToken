@@ -9,8 +9,17 @@
 }
 
 .texts-grade{
-    
-    color: #6900b5;
+    background: linear-gradient(to bottom right, #6048C8, #32C3AE);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+   
+
+   
 }
 
+.gradient-background {
+    background: linear-gradient(to bottom right, #6048C8, #32C3AE);
+ 
+}
 

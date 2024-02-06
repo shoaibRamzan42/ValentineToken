@@ -1,6 +1,6 @@
 import React from "react";
 import image2 from "../assets/image2.png"
-import image3 from "../assets/image3.png"
+import img from '../assets/logo4-1.png'
 import eth from "../assets/Eth.svg"
 import uni from "../assets/Uni.svg"
 import dext from "../assets/Dext.svg"
@@ -10,21 +10,21 @@ import Community from "./Coummunity";
 const Section3 = () => {
   return (
     <>
-    <div id="about" className="btn flex flex-col justify-center px-4 md:text-left text-center md:pl-8 lg:px-0 items-center gap-20 text-white py-24">
+    <div id="about" className=" gradient-background flex flex-col justify-center px-4 md:text-left text-center md:pl-8 lg:px-0 items-center gap-20 text-white py-24">
     <div className="flex flex-col justify-center gap-6 items-center">
       <h1 className="text-[45px]  uppercase font-extrabold ">about Valentine Myro</h1>
-      <p className="text-[16px] font-semibold ">Issa needed a Valentine Myro to his dogwifhat, here we are, the cutest Valentine Myro</p>
-      <img className="rounded-xl" src={image2} alt="pic" />
+      <p className="text-[16px] font-semibold ">A global movement of love, care, share. Absolutely!  Let The Love of a Pet Dog - "MYRO" Rule and Conquer The World Till Eternity.</p>
+      {/* <img className="rounded-xl" src={image2} alt="pic" /> */}
     </div>
-    <Community />
+    {/* <Community /> */}
     <div className="flex md:flex-row flex-col items-center gap-28">
-      <img className="md:max-w-[35%] h-[315px] max-w-[90%] md:h-[255px]" src={image3} alt="pic"/>
+      <img className="md:max-w-[35%] h-[315px] max-w-[90%] md:h-[375px]" src={img} alt="pic"/>
       <div className="flex flex-col gap-4">
       <h1 className="text-[45px] font-semibold   ">Tokenomics</h1>
-      <p className="text-[16px]"><strong>Total Supply:</strong><span className="ml-2">1 Billion </span> </p>
+      <p className="text-[16px]"><strong>Total Supply:</strong><span className="ml-2">100M </span> </p>
       <p className="text-[16px]"><strong>Token Name:</strong><span className="ml-2">Valentine Myro </span> </p>
       <p className="text-[16px]"><strong>Ticker:</strong><span className="ml-2">MYVal </span></p>
-      <p className="text-[16px]"><strong>Tax:</strong><span className="ml-2">0/5 </span> </p>
+      <p className="text-[16px]"><strong>Tax:</strong><span className="ml-2">0/0 </span> </p>
       <p className="text-[16px]"><strong>Burnt</strong> </p>
       <p className="text-[16px]"><strong>Renounce</strong> </p>
       </div>

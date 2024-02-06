@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/logo2-1.png";
+import logo from "../assets/logo2-3.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +12,8 @@ const Navbar = () => {
     <>
       <nav
         
-        className="bg-[#6900b5] dark:bg-gray-900 font-custom py-3 px-4 md:px-12 lg:px-44 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
+        className="gradient-background 
+ dark:bg-gray-900 font-custom py-3 px-4 md:px-12 lg:px-44 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
       >
         <div className="max-w-screen-2xl flex flex-wrap items-center justify-between">
           <img
@@ -23,7 +24,7 @@ const Navbar = () => {
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <button
               type="button"
-              className="bg-white md:block hidden text-[#6900b5] py-2 rounded-full  text-lg px-4"
+              className="bg-white md:block hidden text-[#32C3AE] py-2 rounded-full  text-lg px-4"
             >
               Buy Now
             </button>
@@ -59,7 +60,7 @@ const Navbar = () => {
             }`}
             id="navbar-sticky"
           >
-            <ul className="flex flex-col text-[16px] p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-[#6900b5] md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-[#6900b5] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul className="flex flex-col text-[16px] p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-transparent md:space-x-8 rtl:space-x-reverse md:flex-row  md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <a
                   onClick={() => {
@@ -104,7 +105,7 @@ const Navbar = () => {
               </li>
               <button
                 type="button"
-                className="bg-white block md:hidden text-[#6900b5] py-2 rounded-full  text-lg px-4"
+                className="bg-white block md:hidden texts-grade py-2 rounded-full  text-lg px-4"
               >
                 Buy Now
               </button>

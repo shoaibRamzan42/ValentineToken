@@ -1,8 +1,8 @@
 import React from "react";
-import XIcon from "@mui/icons-material/X";
+
 import X from "@mui/icons-material/X";
 import { Telegram } from "@mui/icons-material";
-import image1 from "../assets/image1.png";
+import image1 from "../assets/image1.jpg";
 
 const Banner = () => {
   return (
@@ -14,14 +14,15 @@ const Banner = () => {
           Valentine Myro
           </h1>
           <p className="texts-grade font-semibold text-[12px] md:text-[16px]">
-          ValentineMyro is a Play2earn game and community-focused meme coin on Binance Smart Chain, inspired by the magical world of Disney. It's all about combining the excitement of the crypto space with the beloved characters and stories from Disney.
+          Valentine Myro is a symbolism representing unconditional love which transcends all boundaries, language, creed and sex. Myro, a Pet Dog owned by solana founder is used as the face of this symbolism to inspire univeral love amongst all mankind and living things.
+
           </p>
           <p className="texts-grade pt-2 font-semibold text-[12px] md:text-[16px]">
-            CA:0xb66b5ea81a14ea8aD13ert434C3023e809C03672
+          Let The Love of a Pet Dog - "MYRO" Rule and Conquer The World Till Eternity.
           </p>
         </div>
         <div className="flex flex-col items-center lg:items-start gap-3">
-          <button className="btn py-3 flex px-6 text-lg w-fit rounded-full">
+          <button className="text-white gradient-background py-3 flex px-6 text-lg w-fit rounded-full">
             Buy Now
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +37,7 @@ const Banner = () => {
               />
             </svg>
           </button>
-          <button className="btn py-3 flex px-6 text-lg w-fit  rounded-full">
+          <button className="text-white gradient-background py-3 flex px-6 text-lg w-fit  rounded-full">
             Chart
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -53,10 +54,10 @@ const Banner = () => {
           </button>
         </div>
         <div className="gap-1 flex   ">
-          <button className="btn py-2 px-2  rounded-md">
+          <button className="text-white gradient-background py-2 px-2  rounded-md">
             <X className="text-[2rem]" />
           </button>
-          <button className="btn py-2 px-2 rounded-md">
+          <button className="text-white gradient-background py-2 px-2 rounded-md">
             <Telegram className="text-[2rem]" />
           </button>
         </div>
