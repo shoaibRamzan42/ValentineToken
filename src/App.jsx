@@ -1,4 +1,5 @@
-import React from "react"
+import React, { useEffect } from 'react';
+import RainingHearts from './Component/RainingHearts';
 import Banner from "./Component/Banner"
 import Navbar from "./Component/Navbar"
 import Section3 from "./Component/Section3"
@@ -9,14 +10,44 @@ import Footer from "./Component/Footer"
 
 
 function App() {
- 
+  useEffect(() => {
+   run();
+  }, []);
 
+  function run(){
+    console.log("aaancjd");
+    setTimeout(() => {
+      document.getElementById('heart-rain').style.display = 'none';
+    }, 3000);
+  }
+
+   function run(){
+    console.log("aaancjd");
+    setTimeout(() => {
+      document.getElementById('heart-rain').style.display = 'none';
+    }, 3000);
+  }
+
+  function run1(){
+    document.getElementById('heart-rain').style.display = 'block';
+    setTimeout(() => {
+      document.getElementById('heart-rain').style.display = 'none';
+    }, 3000);
+  }
+
+  setInterval(run1, 7000);
+ 
   return (
  <>
- <div   className="  max-w-[100vw] font-custom    min-h-screen overflow-hidden   ">
+     
+      
+   
 
+ <div   className="  max-w-[100vw] font-custom    min-h-screen overflow-hidden   ">
+ <RainingHearts />
 
  <div className=" max-w-[1469px]   mx-auto    ">
+
  <Navbar />
 <Banner />
 <Section3 />
@@ -25,6 +56,7 @@ function App() {
 
 </div>
 </div>
+
  </>
   )
 }

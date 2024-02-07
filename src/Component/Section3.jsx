@@ -6,6 +6,7 @@ import uni from "../assets/lifnity-1.png"
 import dext from "../assets/radium-1.png"
 import dev from "../assets/saber.png"
 import Community from "./Coummunity";
+import { motion } from 'framer-motion'
 
 const Section3 = () => {
   return (
@@ -19,8 +20,17 @@ YES , LET THE LOVE OF PET DOG - "MYRO" RULE AND CONQUER THE WORLD TILL ETERNIT
       {/* <img className="rounded-xl" src={image2} alt="pic" /> */}
     </div>
     {/* <Community /> */}
-    <div className="flex md:flex-row flex-col items-center gap-28">
-      <img className="md:max-w-[35%] h-[315px] max-w-[90%] md:h-[375px]" src={img} alt="pic"/>
+    <div className="flex md:flex-row flex-col items-center gap-4 md:gap-28">
+    <motion.div
+                whileInView={{ scale: [0.7, 1], opacity: [0, 1] }}
+                transition={{ duration: 1.2, ease: 'easeInOut' }}
+                initial='hidden'
+                style={{ opacity: 0 }}
+                viewport={{ once: true }}
+                className=''
+            >
+      <img className="md:max-w-[86%] h-[255px] max-w-[100%] md:h-[355px]" src={img} alt="pic"/>
+      </motion.div>
       <div className="flex flex-col gap-4">
       <h1 className="text-[45px] font-semibold   ">Tokenomics</h1>
       <p className="text-[16px]"><strong>Total Supply:</strong><span className="ml-2">100M </span> </p>
