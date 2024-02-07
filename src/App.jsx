@@ -18,24 +18,23 @@ function App() {
     console.log("aaancjd");
     setTimeout(() => {
       document.getElementById('heart-rain').style.display = 'none';
-    }, 3000);
+    }, 100000);
   }
 
    function run(){
     console.log("aaancjd");
     setTimeout(() => {
       document.getElementById('heart-rain').style.display = 'none';
-    }, 3000);
+    },100000);
   }
 
   function run1(){
     document.getElementById('heart-rain').style.display = 'block';
     setTimeout(() => {
       document.getElementById('heart-rain').style.display = 'none';
-    }, 3000);
+    }, 100000);
   }
 
-  setInterval(run1, 7000);
  
   return (
  <>
