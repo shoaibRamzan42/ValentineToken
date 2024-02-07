@@ -13,16 +13,17 @@ const Footer = () => {
     <img className="max-w-[45%]" src={logo1} alt="pic"/>
     </div>
     <div className="gap-1 flex   ">
-          <button className="bg-white py-2 px-2  rounded-md">
-            <X className="text-[2rem] text-[#32C3AE] " />
+          <button  className="bg-white py-2 px-2  rounded-md">
+           <a href="https://www.t.me/ValentineMyro
+"> <X className="text-[2rem] text-[#32C3AE] " /></a>
           </button>
           <button className="bg-white py-2 px-2 rounded-md">
-            <Telegram className="text-[2rem] text-[#32C3AE] " />
+            <a href="https://twitter.com/ValentineMyro"><Telegram className="text-[2rem] text-[#32C3AE] " /></a>
           </button>
         </div>
     <hr />
     <div className="flex flex-col gap-3 text-white justify-center items-center">
-    {/* <p className="text-[16px]  font-medium texts-white">team@codevertex.com</p> */}
+    
     <p className="text-[16px]  font-medium texts-white">© 2024 • All Rights Reserved</p>
 </div>
    </div>
