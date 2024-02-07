@@ -10,15 +10,15 @@ const Banner = () => {
     <div id="home" className="flex lg:flex-row  flex-col-reverse justify-center  lg:items-center pl-4 md:px-8  lg:justify-between lg:gap-7 lg:px-44 pt-32 pb-8">
       <div className=" flex flex-col items-center text-left md:text-center lg:text-left lg:items-start md:mx-0 mx-auto  gap-6  w-fit font-custom">
         <div>
-          <h1 className="texts-grade  md:text-[60px] text-[39px]  uppercase font-bold">
+          <h1 className="texts-grade  md:text-[60px] text-[34px]  uppercase font-bold">
           Valentine Myro
           </h1>
-          <p className="texts-grade font-semibold text-[16px] md:text-[18px]">
+          <p className="texts-grade px-3 font-sans font-semibold text-[16px] md:text-[18px]">
           Valentine Myro is a symbolism representing unconditional love which transcends all boundaries, language, creed and sex. Myro, a Pet Dog owned by solana founder is used as the face of this symbolism to inspire univeral love amongst all mankind and living things<span className="text-red-500">💖</span>
 
           </p>
-          <p className="texts-grade pt-2 font-semibold text-[16px] md:text-[18px]">
-          Let The Love of a Pet Dog - "MYRO" Rule and Conquer The World Till Eternity<span  className="text-red-500 animate-pulse ">💖</span>
+          <p className="texts-grade px-3 pt-4  font-semibold text-[16px] md:text-[18px]">
+          Let The Love of a Pet Dog - "MYRO" Rule and Conquer The World Till Eternity<span  className="text-red-500  ">💖</span>
           </p>
         </div>
         <div className="flex flex-col items-center lg:items-start gap-3">
