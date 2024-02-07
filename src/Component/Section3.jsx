@@ -1,10 +1,10 @@
 import React from "react";
 import image2 from "../assets/image2.png"
-import img from '../assets/logo4-1.png'
-import eth from "../assets/Eth.svg"
-import uni from "../assets/Uni.svg"
-import dext from "../assets/Dext.svg"
-import dev from "../assets/Dev.webp"
+import img from '../assets/image5-1.png'
+import eth from "../assets/solona.png"
+import uni from "../assets/lifnity-1.png"
+import dext from "../assets/radium-1.png"
+import dev from "../assets/saber.png"
 import Community from "./Coummunity";
 
 const Section3 = () => {
@@ -13,7 +13,9 @@ const Section3 = () => {
     <div id="about" className=" gradient-background flex flex-col justify-center px-4 md:text-left text-center md:pl-8 lg:px-0 items-center gap-20 text-white py-24">
     <div className="flex flex-col justify-center gap-6 items-center">
       <h1 className="text-[45px]  uppercase font-extrabold ">about Valentine Myro</h1>
-      <p className="text-[16px] font-semibold ">A global movement of love, care, share. Absolutely!  Let The Love of a Pet Dog - "MYRO" Rule and Conquer The World Till Eternity.</p>
+      <p className="text-[16px] md:text-[18px] text-center w-full md:w-[70%] lg:w-[45%] font-semibold ">A GLOBAL MOVEMENT OF LOVE, CARE AND SHARE<span >💖</span><br/>BLOCKCHAIN - SOLANA NETWORK-  IS ONLY OUR MEANS OF DECENTRALIZING POWER AMONGST US WITH $MYVAL AS OUR SYMBOL<span >💖</span><br/>
+YES , LET THE LOVE OF PET DOG - "MYRO" RULE AND CONQUER THE WORLD TILL ETERNITY<span>💖</span> 
+</p>
       {/* <img className="rounded-xl" src={image2} alt="pic" /> */}
     </div>
     {/* <Community /> */}
@@ -31,11 +33,11 @@ const Section3 = () => {
     </div>
     <div className="flex flex-col justify-center items-center gap-10">
       <h1 className="text-[45px] font-semibold">Available in</h1>
-      <div className="flex justify-center flex-wrap gap-8">
-        <img src={eth} className="lg:max-w-[20%] md:max-w-[30%} max-w-[40%]" alt="pic"/>
-        <img src={uni} className="lg:max-w-[20%] md:max-w-[30%} max-w-[40%]" alt="pic"/>
-        <img src={dext} className="lg:max-w-[20%] md:max-w-[30%} max-w-[40%]" alt="pic"/>
-        <img src={dev} className="lg:max-w-[20%] md:max-w-[30%} max-w-[40%]" alt="pic"/>
+      <div className="flex justify-center flex-wrap gap-12 lg:gap-40">
+        <img src={eth} className="lg:max-w-[10%] md:max-w-[18%] max-w-[30%]" alt="pic"/>
+        <img src={uni} className="lg:max-w-[10%] md:max-w-[18%] max-w-[30%]" alt="pic"/>
+        <img src={dext} className="lg:max-w-[10%] md:max-w-[18%] max-w-[30%]" alt="pic"/>
+        <img src={dev} className="lg:max-w-[10%] md:max-w-[18%] max-w-[30%]" alt="pic"/>
       </div>
       
     </div>
