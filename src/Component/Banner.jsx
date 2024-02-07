@@ -14,7 +14,7 @@ const Banner = () => {
           Valentine Myro
           </h1>
           <p className="texts-grade px-3 font-sans font-semibold text-[16px] md:text-[18px]">
-          Valentine Myro is a symbolism representing unconditional love which transcends all boundaries, language, creed and sex. Myro, a Pet Dog owned by solana founder is used as the face of this symbolism to inspire univeral love amongst all mankind and living things<span className="text-red-500">💖</span>
+          Valentine Myro is a symbolism representing unconditional love which transcends all boundaries, language, creed and sex. <br/>Myro, a Pet Dog owned by solana founder is used as the face of this symbolism to inspire univeral love amongst all mankind and living things<span className="text-red-500">💖</span>
 
           </p>
           <p className="texts-grade px-3 pt-4  font-semibold text-[16px] md:text-[18px]">
