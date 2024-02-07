@@ -15,7 +15,7 @@ const Section3 = () => {
     <div className="flex flex-col justify-center gap-6 items-center">
       <h1 className="text-[45px]  uppercase font-extrabold ">about Valentine Myro</h1>
       <p className="text-[16px] md:text-[18px] text-center w-full md:w-[70%] lg:w-[45%] font-semibold ">A GLOBAL MOVEMENT OF LOVE, CARE AND SHARE<span >💖</span><br/>BLOCKCHAIN - SOLANA NETWORK-  IS JUST OUR MEANS OF DECENTRALIZING POWER AMONGST US WITH $MYVAL AS OUR SYMBOL<span >💖</span><br/>
-YES , LET THE LOVE OF PET DOG - "MYRO" RULE AND CONQUER THE WORLD TILL ETERNITY<span>💖</span> 
+YES , LET THE LOVE OF A PET DOG - "MYRO" RULE AND CONQUER THE WORLD TILL ETERNITY<span>💖</span> 
 </p>
       {/* <img className="rounded-xl" src={image2} alt="pic" /> */}
     </div>
