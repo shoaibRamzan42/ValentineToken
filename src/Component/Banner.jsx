@@ -54,11 +54,11 @@ const Banner = () => {
           </button>
         </div>
         <div className="gap-1 flex   ">
-          <button  className="gradient-background  text-white py-2 px-2  rounded-md">
+          <button  className=" gradient-background  text-white py-2 px-2  rounded-md">
            <a href="https://www.t.me/ValentineMyro
 "> <X className="text-[2rem]  " /></a>
           </button>
-          <button className="gradient-background text-white  py-2 px-2 rounded-md">
+          <button className=" gradient-background text-white  py-2 px-2 rounded-md">
             <a href="https://twitter.com/ValentineMyro"><Telegram className="text-[2rem] text-[#32C3AE] " /></a>
           </button>
         </div>
