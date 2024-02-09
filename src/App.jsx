@@ -29,7 +29,7 @@ function App() {
   }
 
   function run1(){
-    document.getElementById('heart-rain').style.display = 'block';
+    
     setTimeout(() => {
       document.getElementById('heart-rain').style.display = 'none';
     }, 100000);
