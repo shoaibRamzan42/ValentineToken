@@ -11,7 +11,7 @@ import dev from "../assets/saber.png"
 const Banner = () => {
   return (
     <>
-    <div id="home" className="flex lg:flex-row gap-8 flex-col-reverse justify-center  lg:items-center pl-4 md:px-8  lg:justify-between lg:gap-7 lg:px-44 pt-32 pb-8">
+    <div id="home" className="flex lg:flex-row gap-5 flex-col-reverse justify-center  lg:items-center pl-4 md:px-8  lg:justify-between lg:gap-7 lg:px-44 pt-28 pb-8">
       <div className=" flex flex-col items-center text-left md:text-center lg:text-left lg:items-start md:mx-0 mx-auto  gap-6  w-fit font-custom">
         <div>
           <h1 className="texts-grade  md:text-[60px] text-[34px]  uppercase font-bold">
@@ -73,7 +73,7 @@ const Banner = () => {
                 initial='hidden'
                 style={{ opacity: 0 }}
                 viewport={{ once: true }}
-                className='w-full'
+                className='w-full block lg:hidden'
             >
       <div className="flex justify-center flex-row items-center gap-8 lg:gap-20">
         <img src={eth} className="lg:max-w-[32%] md:max-w-[10%] max-w-[12%]" alt="pic"/>
