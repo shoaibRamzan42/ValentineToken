@@ -3,21 +3,25 @@ import { motion } from 'framer-motion'
 import X from "@mui/icons-material/X";
 import { Telegram } from "@mui/icons-material";
 import image1 from "../assets/image1.jpg";
+import eth from "../assets/solona.png"
+import uni from "../assets/lifnity-1.png"
+import dext from "../assets/radium-1.png"
+import dev from "../assets/saber.png"
 
 const Banner = () => {
   return (
     <>
-    <div id="home" className="flex lg:flex-row  flex-col-reverse justify-center  lg:items-center pl-4 md:px-8  lg:justify-between lg:gap-7 lg:px-44 pt-32 pb-8">
+    <div id="home" className="flex lg:flex-row gap-8 flex-col-reverse justify-center  lg:items-center pl-4 md:px-8  lg:justify-between lg:gap-7 lg:px-44 pt-32 pb-8">
       <div className=" flex flex-col items-center text-left md:text-center lg:text-left lg:items-start md:mx-0 mx-auto  gap-6  w-fit font-custom">
         <div>
           <h1 className="texts-grade  md:text-[60px] text-[34px]  uppercase font-bold">
           Valentine Myro
           </h1>
-          <p className="texts-grade px-3 font-sans font-semibold text-[16px] md:text-[18px]">
+          <p className="texts-grade px-3 lg:px-0  font-sans font-semibold text-[16px] md:text-[18px]">
           Valentine Myro is a symbolism representing unconditional love which transcends all boundaries, language, creed and sex. <br/>Myro, a Pet Dog owned by solana founder is used as the face of this symbolism to inspire univeral love amongst all mankind and living things<span className="text-red-500">💖</span>
 
           </p>
-          <p className="texts-grade px-3 pt-4  font-semibold text-[16px] md:text-[18px]">
+          <p className="texts-grade px-3 lg:px-0 pt-4  font-semibold text-[16px] md:text-[18px]">
           Let The Love of a Pet Dog - "MYRO" Rule and Conquer The World Till Eternity<span  className="text-red-500  ">💖</span>
           </p>
         </div>
@@ -69,9 +73,14 @@ const Banner = () => {
                 initial='hidden'
                 style={{ opacity: 0 }}
                 viewport={{ once: true }}
-                className=''
+                className='w-full'
             >
-      <img className="lg:w-[95%] ml-0 md:ml-[130px] lg:ml-0 md:w-[65%]" src={image1} alt="pic" />
+      <div className="flex justify-center flex-wrap gap-12 lg:gap-20">
+        <img src={eth} className="lg:max-w-[32%] md:max-w-[15%] max-w-[29%]" alt="pic"/>
+        <img src={uni} className="lg:max-w-[32%] md:max-w-[15%] max-w-[29%]" alt="pic"/>
+        <img src={dext} className="lg:max-w-[32%] md:max-w-[15%] max-w-[29%]" alt="pic"/>
+        <img src={dev} className="lg:max-w-[32%] md:max-w-[15%] max-w-[29%]" alt="pic"/>
+      </div>
       </motion.div>
       </div>
 
