@@ -11,17 +11,17 @@ import dev from "../assets/saber.png"
 const Banner = () => {
   return (
     <>
-    <div id="home" className="flex lg:flex-row gap-5 flex-col-reverse justify-center  lg:items-center pl-4 md:px-8  lg:justify-between lg:gap-7 lg:px-44 pt-28 pb-8">
+    <div id="home" className="flex lg:flex-row  flex-col-reverse justify-center  lg:items-center pl-4 md:px-8  lg:justify-between lg:gap-7 lg:px-44 pt-32 pb-8">
       <div className=" flex flex-col items-center text-left md:text-center lg:text-left lg:items-start md:mx-0 mx-auto  gap-6  w-fit font-custom">
         <div>
           <h1 className="texts-grade  md:text-[60px] text-[34px]  uppercase font-bold">
           Valentine Myro
           </h1>
-          <p className="texts-grade px-0 lg:px-0  font-sans font-semibold text-[16px] md:text-[18px]">
+          <p className="texts-grade px-3 font-sans font-semibold text-[16px] md:text-[18px]">
           Valentine Myro is a symbolism representing unconditional love which transcends all boundaries, language, creed and sex. <br/>Myro, a Pet Dog owned by solana founder is used as the face of this symbolism to inspire univeral love amongst all mankind and living things<span className="text-red-500">💖</span>
 
           </p>
-          <p className="texts-grade px-0 lg:px-0 pt-4  font-semibold text-[16px] md:text-[18px]">
+          <p className="texts-grade px-3 pt-4  font-semibold text-[16px] md:text-[18px]">
           Let The Love of a Pet Dog - "MYRO" Rule and Conquer The World Till Eternity<span  className="text-red-500  ">💖</span>
           </p>
         </div>
@@ -67,21 +67,23 @@ const Banner = () => {
           </button>
         </div>
       </div>
+     
       <motion.div
                 whileInView={{ scale: [0.7, 1], opacity: [0, 1] }}
                 transition={{ duration: 1.2, ease: 'easeInOut' }}
                 initial='hidden'
                 style={{ opacity: 0 }}
                 viewport={{ once: true }}
-                className='w-full block lg:hidden'
+                className=''
             >
-      <div className="flex justify-center flex-row items-center gap-8 lg:gap-20">
+      <img className="lg:w-[95%] ml-0 md:ml-[130px] lg:ml-0 md:w-[65%]" src={image1} alt="pic" />
+      </motion.div>
+      <div className="flex justify-center lg:hidden flex-row items-center gap-8 lg:gap-20">
         <img src={eth} className="lg:max-w-[32%] md:max-w-[10%] max-w-[12%]" alt="pic"/>
         <img src={uni} className="lg:max-w-[32%] md:max-w-[10%] max-w-[12%]" alt="pic"/>
         <img src={dext} className="lg:max-w-[32%] md:max-w-[10%] max-w-[12%]" alt="pic"/>
         <img src={dev} className="lg:max-w-[32%] md:max-w-[10%] max-w-[12%]" alt="pic"/>
       </div>
-      </motion.div>
       </div>
 
       
